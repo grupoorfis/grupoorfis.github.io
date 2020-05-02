@@ -1,0 +1,41 @@
+{
+  "name": "grupoorfis",
+  "version": "1.0.0",
+  "description": "Grupo Orfis web",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grupoorfis/grupoorfis.github.io.git"
+  },
+  "author": "Sergitxu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grupoorfis/grupoorfis.github.io/issues"
+  },
+  "homepage": "https://github.com/grupoorfis/grupoorfis.github.io#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "autoprefixer": "^9.7.6",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.5.3",
+    "extract-loader": "^5.0.1",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "@material/button": "^6.0.0",
+    "@material/ripple": "^6.0.0"
+  }
+}
